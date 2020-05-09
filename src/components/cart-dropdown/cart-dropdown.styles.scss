@@ -12,10 +12,11 @@
   z-index: 5;
 
   .cart-items {
+    scrollbar-width: thin;
     height: 240px;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 
   button {
